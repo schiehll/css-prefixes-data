@@ -1,7 +1,7 @@
 {
   "name": "css-prefixes-data",
-  "version": "1.0.0",
-  "main": "src/index.js",
+  "version": "1.0.3",
+  "bin": "src/index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
