@@ -1,0 +1,22 @@
+{
+  "name": "css-prefixes-data",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schiehll/css-prefixes-data.git"
+  },
+  "keywords": [
+    "css",
+    "prefix",
+    "caniuse"
+  ],
+  "author": "schiehll <rn.schiehll@gmail.com> (http://github.com/schiehll)",
+  "dependencies": {
+    "browserslist": "^1.4.0",
+    "caniuse-api": "^1.5.2",
+    "caniuse-db": "^1.0.30000576",
+    "commander": "^2.9.0"
+  }
+}
