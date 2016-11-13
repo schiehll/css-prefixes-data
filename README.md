@@ -5,9 +5,11 @@
 [![version](https://img.shields.io/npm/v/css-prefixes-data.svg?style=flat-square)](http://npm.im/css-prefixes-data)
 [![MIT License](https://img.shields.io/npm/l/css-prefixes-data.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
-# Usage
+# Install
 
-Install with `npm install -g css-prefix-data` then run it like this:
+`npm install -g css-prefix-data`
+
+# Usage
 
 ```shell
 Usage: css-prefixes-data [options]
@@ -19,6 +21,12 @@ Usage: css-prefixes-data [options]
     -s, --scope <browser scope>  The browser scope
     -f, --filename [filename]    The filename
 
+```
+
+# Example
+
+```shell
+css-prefixes-data -s 'last 2 versions' -f 'prefixes.json'
 ```
 
 It will generate the file in the current working directory.
